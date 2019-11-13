@@ -1,0 +1,43 @@
+.row {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 36px;
+	font-weight: 600;
+}
+.row >div{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.row>div a{
+	background: #efefef;
+}
+#myCarousel{
+	margin-top: 50px;
+}
+li:hover {
+	background: #eee;
+}
+
+.dropdown-menu {
+	padding-top: 10px;
+	height: 92px;
+}
+
+.navbar {
+	margin: 0;
+}
+.thumbnail{
+	margin: 0;
+	padding:10px;
+}
+
+.row2>div>div{
+	height: 135px;
+	
+}
+.row2>div{
+	margin-bottom: 5px;
+}

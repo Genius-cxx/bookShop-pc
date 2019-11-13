@@ -1,0 +1,191 @@
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		 crossorigin="anonymous">
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+		 crossorigin="anonymous">
+
+		<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		 crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style/base.css">
+		<link rel="stylesheet" href="style/home.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="sr-only">展开导航</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">甜甜书城</a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav">
+					<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;甜心收藏</a></li>
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-lamp"></span>&nbsp;公司介绍<b
+							 class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">发展历史</a></li>
+							<li class="divider"></li>
+							<li><a href="#">公司前景</a></li>
+							<li class="divider"></li>
+						</ul>
+					</li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-apple"></span>&nbsp;加入我们
+							<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">联系方式</a></li>
+							<li class="divider"></li>
+							<li><a href="#">关于我们</a></li>
+							<li class="divider"></li>
+						</ul>
+					</li>
+
+				</ul>
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">&nbsp;<span class="glyphicon glyphicon-search"></span>&nbsp;</button>
+				</form>
+			</div>
+		</nav>
+
+
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+
+
+				<div class="item active">
+					<a href="#">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/banner/dc7c4c700eb24681491bfae93655899a" alt="第一张" width="100%">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/banner/81c2fd59cc6b6740a5ea2b82e111dba1" alt="第二张" width="100%">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/banner/dc7c4c700eb24681491bfae93655899a" alt="第三张" width="100%">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/banner/81c2fd59cc6b6740a5ea2b82e111dba1" alt="第四张" width="100%">
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/banner/dc7c4c700eb24681491bfae93655899a" alt="第五张" width="100%">
+					</a>
+				</div>
+				<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+					<!-- ‹ -->
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a><!-- 左箭头 -->
+				<a href="#myCarousel" data-slide="next" class="carousel-control right">
+					<!-- › -->
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a><!-- 右箭头 -->
+			</div>
+			<ol class="breadcrumb">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">书城</a></li>
+			</ol>
+			<div class="row">
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/1624f7233d2e7c8f06c36bf8f3d61704">
+					</a>圣墟</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/643b74bccd61bf53fdf8790a4f090dd5">
+					</a>大主宰</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/022e51001b527f25421584559c9b98dc">
+					</a>帝霸</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/0be7085ce169f09cc0276053009b101b">
+					</a>大王饶命</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/aac37c0644e9e26ed90ba1b90985362c">
+					</a>全职法师</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/dcbc3f674e0205e9b8ae338790615f35">
+					</a>牧神记</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/6f00d5457baa3bfe6f9a227e036ad3fe">
+					</a>最强反套路系统</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/833ecc7b41e564d1b7c21d4a21da6d8b">
+					</a>美食供应商</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/2fefc87c2dbe1d3a467db8e42a127b37">
+					</a>茅山捉鬼人</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/517be21babd11a90a08c748d68a92c93">
+					</a>全职高手</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/bbd9c3ec8b35f128d80e0f1f0dcd625e">
+					</a>道君</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="https://sm-covers.oss-cn-shanghai.aliyuncs.com/mixed.com/ae81f087050f024a7c2b0293989608f1">
+					</a>汉乡</div>
+
+			</div>
+			<ol class="breadcrumb">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">榜单</a></li>
+			</ol>
+			<div class="row row2">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="thumbnail"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="thumbnail"></div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="thumbnail"></div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(function() {
+					//轮播图自动播放
+					$('#myCarousel').carousel({
+						interval: 3000, //自动播放4s
+
+					});
+
+				});
+			</script>
+	</body>
+</html>
